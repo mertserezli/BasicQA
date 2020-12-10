@@ -20,6 +20,8 @@ def main():
 
 def ask(qa):
     print(qa.question)
+    input("Show?")
+    print(qa.answer)
     user_answer = input("Answer?\n")
     if user_answer.lower().startswith('n'):
         return False
